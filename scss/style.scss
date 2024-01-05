@@ -1,0 +1,24 @@
+@import "./bemit/01-settings/settings.scss";
+@import "./bemit/02-tools/tools.scss";
+@import "./bemit/03-external/external.scss";
+@import "./bemit/04-generic/generic.scss";
+@import "./bemit/05-tags/tags.scss";
+@import "./bemit/06-keyframes/keyframes.scss";
+@import "./bemit/07-objects/objects.scss";
+@import "./bemit/08-blocks/blocks.scss";
+@import "./bemit/09-components/components.scss";
+@import "./bemit/10-scopes/scopes.scss";
+@import "./bemit/11-utilities/utilities.scss";
+
+body{
+    background-color: rgb(31, 31, 31);
+}
+.protones, .atomos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.protones>*, .atomos>*{
+    margin: 2rem;
+}

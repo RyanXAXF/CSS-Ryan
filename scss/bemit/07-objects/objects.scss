@@ -1,0 +1,71 @@
+/*Clases de tipo Objetos o- clases que pueden reutilizarse en diferentes bloques o componentes, genereles
+
+/*Circulos*/
+
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.circle--primary{
+    background-color: var(--primary);
+}
+.circle--info{
+    background-color: var(--info);
+}
+.circle--success{
+    background-color: var(--success);
+}
+.circle--danger{
+    background-color: var(--danger);
+}
+.circle--warning{
+    background-color: var(--warning);
+}
+.circle--snow{
+    background-color: var(--snow);
+}
+.circle--secondary{
+    background-color: var(--secondary);
+}
+.circle--gray{
+    background-color: var(--gray);
+}
+.circle--dark{
+    background-color: var(--dark);
+}
+
+
+/*Botones*/
+.button--primary{
+    background-color: var(--primary);
+    color: var(--snow);
+    &:hover{
+        background-color: var(--primary--hover);
+    }
+}
+
+.button--danger{
+    background-color: var(--danger);
+    color: var(--snow);
+    &:hover{
+        background-color: var(--danger--hover);
+    }
+}
+.button--warning{
+    background-color: var(--warning);
+    color: var(--dark);
+    &:hover{
+        background-color: var(--warning--hover);
+    }
+}
+.button--info{
+    background-color: var(--info);
+    color: var(--dark);
+    &:hover{
+        background-color: var(--info--hover);
+    }
+}
+
+

@@ -1,0 +1,18 @@
+/*Estilos generales, variables, *{} selector, etc*/
+@import "./normalize.scss";
+
+:root{
+    --primary: rgb(0, 0, 255);
+    --primary--hover: rgb(0, 0, 192);
+    --info: rgb(24, 241, 231);
+    --info--hover: rgb(10, 200, 200);
+    --success: rgb(0, 170, 0);
+    --danger: rgb(255, 0, 0);
+    --danger--hover: rgb(200, 0, 0);
+    --warning: rgb(255, 102, 0);
+    --warning--hover: rgb(220, 100, 0);
+    --snow: rgb(255, 255, 255);
+    --secondary: rgb(87, 87, 87);
+    --gray: rgb(182, 182, 182);
+    --dark: rgb(31, 31, 31);
+}

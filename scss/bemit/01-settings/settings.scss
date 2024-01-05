@@ -1,0 +1,26 @@
+/*Settings: Tamaños de las fuentes, colores, cuantas columnas tendra nuestro grid, etc.*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,500&display=swap');
+
+.title{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--snow);
+}
+
+.subtitle{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: var(--snow);
+}
+
+.text{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--snow);
+}
+
+
+
